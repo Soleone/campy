@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Campy::VERSION
 
-  gem.add_dependency "multi_json", "~> 1.0"
+  gem.add_dependency "multi_json", "~> 0.0.5"
 
   gem.add_development_dependency "minitest", "~> 2.12.0"
   gem.add_development_dependency "webmock", "~> 1.8.5"
